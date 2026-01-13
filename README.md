@@ -64,7 +64,9 @@ An interactive Power BI dashboard was created using the same SQL dataset.
 - Order Date
 
 ### 📄 Power BI Dashboard (PDF)
-[Click here to view the Power BI Dashboard PDF](Power%20BI%20Project%20Dashboard.pdf)
+[Click here to view the Power BI Dashboard PDF](Power%20BI%20Project%20DAshboard.pdf)
+## 📂 Additional Files
+- **Power BI Project Dashboard.pdf** – Exported dashboard for offline viewing
 
 
 ---
