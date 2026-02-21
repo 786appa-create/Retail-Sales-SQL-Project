@@ -1,98 +1,112 @@
-# Retail Sales Analytics – SQL & Power BI Project
+# 🛒 Retail Sales Analytics – SQL Project  
 
-## 📌 Project Overview
-This project demonstrates an end-to-end data analytics workflow using **SQL and Power BI**.
-The goal is to analyze retail sales data, generate business insights, and present them through an interactive dashboard.
+⭐ This project demonstrates strong SQL fundamentals including database design, joins, aggregation, CTEs, and window functions.
 
-The project covers:
-- Database design using SQL
-- Data insertion with realistic sample data
-- Business problem solving using SQL queries
-- Data visualization using Power BI
+## 📌 Project Overview  
+
+This project demonstrates an end-to-end data analytics workflow using SQL (MySQL).  
+
+The goal of this project is to:
+
+- Design a relational retail database  
+- Insert realistic sample data  
+- Solve real-world business problems using SQL queries  
+- Generate actionable business insights  
+
+This project focuses purely on SQL-based data analysis without visualization tools.
 
 ---
 
-## 🧱 Database Schema
+## 🧱 Database Schema  
+
 The database consists of the following tables:
 
-- **customers** – customer details and locations  
-- **products** – product information and categories  
-- **orders** – customer orders with status and dates  
-- **order_items** – line-level order details  
-- **payments** – payment method and status  
+1️⃣ customers  
+Stores customer details and location information.
 
-Relationships are designed using primary and foreign keys to ensure data integrity.
+2️⃣ products  
+Contains product details and product categories.
 
----
+3️⃣ orders  
+Stores order-level information including order status and dates.
 
-## 📊 Business Questions Solved (SQL)
-1. Total revenue generated  
-2. Monthly sales trend  
-3. Top 5 best-selling products  
-4. Category-wise revenue  
-5. High-value customers  
-6. Repeat customers  
-7. Failed and pending payments  
-8. Average order value (AOV)  
-9. Customers with no orders  
-10. Customer ranking by total spending  
+4️⃣ order_items  
+Contains line-level order details (product, quantity, price).
+
+5️⃣ payments  
+Tracks payment method and payment status.
+
+🔗 Relationships  
+- Primary and Foreign Keys are implemented  
+- Ensures data integrity  
+- Normalized relational database design  
 
 ---
 
-## 📈 Power BI Dashboard
+## 📊 Business Problems Solved Using SQL  
 
-### Dashboard Overview
-An interactive Power BI dashboard was created using the same SQL dataset.
+The following business questions were solved:
 
-**Key KPIs displayed:**
-- Total Sales
-- Completed Sales
-- Total Orders
-- Total Customers
-- Average Order Value (AOV)
+- Total Revenue Generated  
+- Monthly Sales Trend  
+- Top 5 Best-Selling Products  
+- Category-wise Revenue  
+- High-Value Customers  
+- Repeat Customers  
+- Failed and Pending Payments  
+- Average Order Value (AOV)  
+- Customers with No Orders  
+- Customer Ranking by Total Spending  
 
-**Visual Insights:**
-- Monthly sales trend
-- Sales by product category
-- Top 5 products by sales
-- Payment status distribution
-
-**Interactive Filters:**
-- Order Status
-- Product Category
-- City
-- Order Date
-
-### 📄 Power BI Dashboard (PDF)
-[Click here to view the Power BI Dashboard PDF](Power%20BI%20Project%20DAshboard.pdf)
-## 📂 Additional Files
-- **Power BI Project Dashboard.pdf** – Exported dashboard for offline viewing
-
+Each query uses:
+- JOINs  
+- GROUP BY  
+- Subqueries  
+- CTEs  
+- Window Functions  
 
 ---
 
-## 🛠 Tools & Technologies Used
-- **SQL (MySQL)** – database design & analytics
-- **Power BI** – data modeling, DAX, and visualization
-- **GitHub** – project version control and portfolio hosting
+## 📂 Project Structure  
+
+Retail-Sales-SQL-Project/  
+│  
+├── retail_sales_project.sql   (Schema + Data + Queries)  
+└── README.md  
+
+All database creation, data insertion, and analytical queries are included in a single SQL file.
 
 ---
 
-## ▶️ How to Use This Project
-1. Run SQL scripts from the `schema/` and `data/` folders to recreate the database  
-2. Review business queries in the `queries/` folder  
-3. Open the Power BI file from the `powerbi/` folder to explore the dashboard  
+## 🛠 Tools & Technologies Used  
+
+- SQL (MySQL)  
+- Relational Database Design  
+- Window Functions  
+- Subqueries & CTEs  
+- GitHub for version control  
 
 ---
 
-## 📌 Key Learnings
-- Designed a normalized relational database
-- Wrote business-focused SQL queries
-- Built DAX measures for KPIs
-- Created a professional, interactive dashboard
+## ▶️ How to Run This Project  
+
+1. Open MySQL Workbench (or any SQL IDE)  
+2. Run the retail_sales_project.sql file  
+3. Execute queries section-by-section to view results  
 
 ---
 
-## 👤 Author
-**Appaso Suryavanshi**  
-Data Analytics | SQL | Power BI
+## 📌 Key Learnings  
+
+- Designed a normalized relational database  
+- Implemented primary and foreign key constraints  
+- Solved business problems using SQL  
+- Applied aggregation, filtering, and ranking techniques  
+- Used window functions for advanced analytics  
+
+---
+
+## 👤 Author  
+
+Appaso Suryavanshi  
+Data Analytics | SQL  
